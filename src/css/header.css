@@ -48,6 +48,21 @@
 .newElement{
     width: 100%;
     position: absolute;
-    left: 50%;
+    left: 40%;
+    
+}
+.arrow2{
+    
+        width: 280px;
+        height: 47px;
+        border-bottom: 3px solid rgb(0, 0, 0);
+        transform:
+            translateY(-20px)
+            translateX(70px)
+            rotate(27deg); 
+        position: absolute;
+        margin-left:5%;
+        margin-top:60px;
+        
     
 }

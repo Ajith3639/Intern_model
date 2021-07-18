@@ -23,10 +23,10 @@ function Header() {
     })
 }
   return (
-    <div>
+    <div >
       <div className="main">
-        <div className="dropDown"></div>
-        {drop ? <Dropdown onSelect={HandleSelect} /> : null}
+        <div className="dropDown">      {drop ? <Dropdown onSelect={HandleSelect} /> : null}</div>
+
       </div>
       <div className="header">
         <div className="left">
@@ -38,7 +38,7 @@ function Header() {
 
       </div>
       <div className="newElement">
-      
+      {tab?<div className="arrow2"/>:null}
       {tab?<TableHead  value="Real Estate" text="What service do you need?"/>:null}
       
            
