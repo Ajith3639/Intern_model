@@ -23,13 +23,15 @@ function App() {
   return (
     
     <div className="App">
-  
-    <Header />
+ <Header />
+    
+    
     
     
     <div className="headings">
- 
-    <TableHead  value="AccomodationBrokers" text="What service do you need?"/>
+
+ <TableHead  value="AccomodationBrokers" text="What service do you need?"/>
+
 
       
  

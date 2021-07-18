@@ -18,11 +18,11 @@ import "../css/dropDown.css"
       <select onChange={onClick} className="dropDown" >
         <option  defaultValue="select">
           Select
-        </option>
-        <option  value="Real Estate">RealEstate</option>
-        <option  value="Womens Hostel">WomensHostel</option>
-        <option  value="Lodging">Lodging</option>
-        <option  value="Kid's Hostel">Kid'sHostel</option>
+        </option><hr/>
+        <option  value="Real Estate">Real Estate</option><hr/>
+        <option  value="Womens Hostel">Womens Hostel</option><hr/>
+        <option  value="Lodging">Lodging</option><hr/>
+        <option  value="Kid's Hostel">Kid's Hostel</option><hr/>
       </select>
       
     </div>

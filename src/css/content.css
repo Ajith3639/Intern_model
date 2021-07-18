@@ -9,29 +9,32 @@ form{
     display: inline-block;
     height: 23;
     width: 16px;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     padding: 12px 70px 12px 20px ;
     border: 1px solid;
+    font-weight: bold;
 }
 .option_content{
     margin-bottom: 10px;
     
 }
 .delete{
-    background-color: rgb(163, 36, 36);
+    background-color: rgb(172, 118, 118);
     padding: 15px 40px 15px 40px ;
     text-align: center;
     margin-left: 5px;
     text-decoration: none;
     border: none;
+    font-weight: bold;
 }
 .edit{
-    background-color: rgb(156, 156, 19);
+    background-color: rgb(218, 218, 89);
     padding: 15px 40px 15px 40px ;
     text-align: center;
     margin: 5px;
     text-decoration: none;
     border: none;
+    font-weight: bold;
     
 }
 .primaryInput{
