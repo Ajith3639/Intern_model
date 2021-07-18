@@ -1,0 +1,23 @@
+.newAdd{
+    margin-left: 260px;
+
+}
+.add{
+    background-color: #2d23bd;
+    border: none;
+    color: white;
+    padding: 5px 7px 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px;
+    border-radius: 75%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.secondInput{
+    padding: 15px 40px 15px 40px ;
+    border: none;
+    background-color: thistle;
+}

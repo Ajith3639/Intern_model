@@ -1,0 +1,39 @@
+.options{
+    
+    margin-left: 220px;
+}
+form{
+    display: inline-block;
+}
+.optionPara{
+    display: inline-block;
+    height: 23;
+    width: 16px;
+    background-color: grey;
+    padding: 12px 70px 12px 20px ;
+    border: 1px solid;
+}
+.option_content{
+    margin-bottom: 10px;
+    
+}
+.delete{
+    background-color: rgb(163, 36, 36);
+    padding: 15px 40px 15px 40px ;
+    text-align: center;
+    margin-left: 5px;
+    text-decoration: none;
+    border: none;
+}
+.edit{
+    background-color: rgb(156, 156, 19);
+    padding: 15px 40px 15px 40px ;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+    border: none;
+    
+}
+.primaryInput{
+    padding: 10px 15px 10px 10px ;
+}

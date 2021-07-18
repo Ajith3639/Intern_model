@@ -1,0 +1,53 @@
+.main{
+    
+      text-align: center;
+      margin-left: 500px;
+      
+}
+.header{
+    display: flex;
+    flex-direction: row;
+ justify-content: center;
+    align-items: center;
+    margin: -20px;
+    
+}
+
+.left{
+    background-color: aqua;
+    border-radius: 40px;
+    padding: 0px 15px 0px 15px;
+    align-items: center;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, 0.8);
+    
+}
+.button{
+    background-color: #e40909;
+    border: none;
+    color: white;
+    padding: 5px 7px 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px;
+    border-radius: 75%;
+    cursor: pointer;
+
+}
+.dropDown{
+    outline: none;
+    height: 30px;
+    margin-left: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    
+    
+}
+.newElement{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    
+}
