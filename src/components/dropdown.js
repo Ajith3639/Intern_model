@@ -1,5 +1,6 @@
 import React from "react";
-import { useState } from "react/cjs/react.development";
+import { useState,useEffect } from "react/cjs/react.development";
+
 import "../css/dropDown.css"
 
  function Dropdown(props) {
@@ -7,18 +8,19 @@ import "../css/dropDown.css"
 
   
   const onClick=(e)=>{
+  
     onDrop(e.target.value);
-    props.onSelect(drop);
-
-
+    
 }
+useEffect(() => {
+  props.onSelect(drop);
+});
     
   return (
     <div>
-      <select onChange={onClick} className="dropDown" >
-        <option  defaultValue="select">
-          Select
-        </option><hr/>
+    
+      <select  value={drop} onChange={onClick} className="dropDown" defaultValue="Select" > 
+      <option  value="Select">Select</option><hr/>
         <option  value="Real Estate">Real Estate</option><hr/>
         <option  value="Womens Hostel">Womens Hostel</option><hr/>
         <option  value="Lodging">Lodging</option><hr/>

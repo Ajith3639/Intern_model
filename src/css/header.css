@@ -62,7 +62,12 @@
             rotate(27deg); 
         position: absolute;
         margin-left:5%;
-        margin-top:60px;
+        margin-top:55px;
         
     
+}
+.bottomBox{
+    background-color: black;
+    margin-top: 5px;
+    height: 5px;
 }

@@ -16,6 +16,7 @@ function Header() {
   function HandleSelect(e){
               setElement(e);
               setTab(true);
+              console.log(element);
   }
   function addNote(note){
     setNotes(prevNotes=>{
@@ -31,6 +32,8 @@ function Header() {
       <div className="header">
         <div className="left">
           <h3>Accomodation Service</h3>
+          <div className="bottomBox"></div>
+          
         </div>
         <div className="button" onClick={onClick}>
           +
@@ -39,7 +42,7 @@ function Header() {
       </div>
       <div className="newElement">
       {tab?<div className="arrow2"/>:null}
-      {tab?<TableHead  value="Real Estate" text="What service do you need?"/>:null}
+      {tab?<TableHead  value={element} text="What service do you need?"/>:null}
       
            
            {tab? 
